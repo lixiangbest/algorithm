@@ -1,0 +1,1 @@
+#include"9.7f.c"#include<stdio.h>void main(){	int x=5;	float y=5.5;	char str[]={"lixiang"};	pint(x);NL;	pfloat(y);NL;	pstr(str);NL;}

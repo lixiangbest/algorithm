@@ -1,0 +1,1 @@
+#include<stdio.h>#define pfloat(val) printf("%6.2f",val)#define pfloat1(x,y) pfloat(x);pfloat(y);NL#define pfloat2(x,y,z) pfloat(x);pfloat(y);pfloat(z);NL#define NL putchar('\n');void main(){	float x=3.5,y=4.6,z=7.8;	pfloat(x);NL;	pfloat1(x,y);	pfloat2(x,y,z);}

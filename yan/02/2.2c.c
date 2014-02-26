@@ -1,0 +1,1 @@
+#include<stdio.h>#define N 5void main(){	int arr[N] = {5,8,10,12,15};	int tmp;	int i,j,times=0;	for(i=0;i<N-1;i++){//Ã°ÅÝ´ÎÊý		for(j=1;j<N-i;j++){			if(arr[j-1]<arr[j]){				tmp = arr[j];				arr[j] = arr[j-1];				arr[j-1] = tmp;			}			times++;		}	}	for(i=0;i<N;i++){		printf("%d ",arr[i]);	}	printf("\nThe times is %d",times);}

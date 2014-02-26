@@ -1,0 +1,1 @@
+#define pint(i) printf("%d",i)#define pfloat(f) printf("%f",f)#define pstr(s) printf("%s",s)#define NL putchar('\n')

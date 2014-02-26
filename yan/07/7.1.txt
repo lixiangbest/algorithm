@@ -1,0 +1,16 @@
+8 14
+a b c d e f g h
+a b
+a c
+b c
+b d
+b e
+c d
+c h
+d e
+d f
+d g
+d h
+e f
+f g
+g h

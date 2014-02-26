@@ -1,0 +1,1 @@
+#include<stdio.h>#define N 5void main(){	float a[N] = {1,5,8,9,10},*p = a;	int i=0;	for(;i<N;i++){		printf("%o %f\n", p, *p);		p++;	}	//»ñµÃÕ»¶¥ÔªËØ	printf("%o %f N = %d", p, *p, p-a);}
